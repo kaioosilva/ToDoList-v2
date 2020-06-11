@@ -15,7 +15,7 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(express.static("public"));
 
-mongoose.connect('URL', {
+mongoose.connect('mongodb+srv://kaio:KaioIreland17@cluster0-5xqr3.mongodb.net/toDoListDB?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
